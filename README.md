@@ -27,7 +27,7 @@ It demonstrates how to:
 
 ---
 
-##  Wiring Diagram (I²C)
+
 
 ##  Wiring Diagram (I²C)
 
