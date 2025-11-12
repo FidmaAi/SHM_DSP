@@ -1,6 +1,8 @@
 
 #  Real-Time DSP with ADXL355Z + ESP32-S3
 
+
+
 This repo implements a **real-time digital signal processing (DSP) pipeline** for structural vibration monitoring using the **ADXL355Z triaxial accelerometer** and the **Adafruit ESP32-S3** microcontroller.
 
 It demonstrates how to:
@@ -28,6 +30,9 @@ It demonstrates how to:
 ##  Wiring Diagram (I²C)
 
 ##  Wiring Diagram (I²C)
+
+<p align="center">
+  <img src="images/wiring.png" alt="ADXL355Z to ESP32 wiring" width="500">
 
 | ADXL355Z Pin | ESP32-S3 Pin | Description |
 |---------------|--------------|--------------|
@@ -259,7 +264,12 @@ Starting continuous plotting of filtered accelerations (X Y Z)...
 -0.000011	0.000015	-0.001195
 ...
 ```
+Filtered and cleaned acceleration signals are continuously sent to the Serial Plotter.  
+Below is an example of the **output visualization** in the Arduino IDE:
 
+<p align="center">
+  <img src="images/serialplot.PNG" alt="Serial Plotter output" width="600">
+</p>
 ---
 
 ##  Usage
