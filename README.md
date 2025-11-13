@@ -284,7 +284,8 @@ Below is an example of the **output visualization** in the Arduino IDE:
 ##  To add
 
 1. missing data handling 
-2. spike mitigation     
+2. spike mitigation
+3. do all filtering steps on the eval board      
 ---
 
 ##  References
